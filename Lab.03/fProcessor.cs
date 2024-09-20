@@ -21,15 +21,7 @@ namespace Lab._03
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+    
 
         private void fProcessor_Load(object sender, EventArgs e)
         {
@@ -60,11 +52,6 @@ namespace Lab._03
             TheProcessor.No = chbNo.Checked;
 
             DialogResult = DialogResult.OK;
-        }
-
-        private void chbNo_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

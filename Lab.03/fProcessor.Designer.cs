@@ -70,7 +70,7 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Загальні дані";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+       
             // 
             // tbTransistors
             // 
@@ -149,7 +149,6 @@
             this.label3.Size = new System.Drawing.Size(98, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Кількість ядер";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -189,7 +188,6 @@
             this.chbNo.TabIndex = 1;
             this.chbNo.Text = "Ні";
             this.chbNo.UseVisualStyleBackColor = true;
-            this.chbNo.CheckedChanged += new System.EventHandler(this.chbNo_CheckedChanged);
             // 
             // chbYes
             // 
